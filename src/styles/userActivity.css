@@ -1,0 +1,7 @@
+.user-activity {
+  position: relative;
+  top: -45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

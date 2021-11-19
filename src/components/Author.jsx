@@ -1,10 +1,11 @@
 import React from "react";
-
-export default function Author ({name, nickname}) {
+import "../styles/author.css"
+export default function Author ({name, nickname, date}) {
   return (
-    <div>
-      <p>{name}</p>
-      <p>{nickname}</p>
+    <div className="author">
+      <p className="author__name">{name}</p>
+      <p className="author__nickname">{nickname}</p>
+      <p className="author__date">{date}</p>
     </div>
   )
 }

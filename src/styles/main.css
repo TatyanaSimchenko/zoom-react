@@ -3,7 +3,26 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: rgb(134, 133, 133);
+  background-color: rgb(44, 44, 44);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background:transparent;
+  width: 40px;
+  height: 40px;
+  color:yellow;
+  transition: color 0.2s ease;
+}
+
+button:hover {
+  text-shadow: 0 0 10px rgb(228, 250, 27);
 }
 
 

@@ -1,6 +1,7 @@
 import React from "react";
+import Postcard from "./components/Postcard";
 import "./styles/main.css";
-import Card from "./Card";
+
 
 
 
@@ -8,9 +9,7 @@ function App() {
   return (
     <div className="App">
       
-      <Card />
-      
-      
+      <Postcard />
       
     </div>
   );
